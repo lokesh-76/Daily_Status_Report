@@ -36,6 +36,8 @@ This is a web-based **Daily Status Report (DSR)** tool built using [Streamlit](h
 3. Run the App --> streamlit run dsr.py
 4. Visit: http://localhost:8501
 
+---
+
 ## ☁️ Hosting on Streamlit Cloud
 You can deploy this app for free using Streamlit Community Cloud:
 - Push this repo to GitHub (done ✅)
@@ -44,6 +46,8 @@ You can deploy this app for free using Streamlit Community Cloud:
 - Set the main file as app.py
 - Click "Deploy" and your app will go live 🚀
 
-##👤 Author
+---
+
+## 👤 Author
 Made with ❤️ by Lokesh Adivishnu
 
