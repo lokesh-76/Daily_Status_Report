@@ -1,53 +1,55 @@
-# 📝 Daily Status Report (DSR) – Streamlit Web App
+# Daily Status Report (DSR) – Streamlit Web App
 
-This is a web-based **Daily Status Report (DSR)** tool built using [Streamlit](https://streamlit.io). It allows team members to:
+This is a web-based **Daily Status Report (DSR)** tool built using [Streamlit](https://streamlit.io).  
+It enables team members to submit, edit, and manage their daily work updates efficiently, with persistent storage for future reference.
 
-- ✅ Submit their daily work updates
-- ✏️ Edit their entries in a dynamic table
-- 🗑️ Delete reports when necessary
-- 💾 Save data persistently using a CSV file
-
----
-
-## 🚀 Features
+## Features
 
 - Form-based report submission
 - Editable and filterable data table using `st.data_editor`
-- Local CSV storage (can be upgraded to database or Google Sheets)
-- Clean, minimal UI for daily use by engineering teams
+- Local CSV storage (can be upgraded to a database or Google Sheets)
+- Minimal and clean UI for daily use by engineering teams
 
----
-
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python 3.x
 - Streamlit
 - Pandas
 
----
+## How to Run Locally
 
-## 💻 How to Run Locally
-
-1. Clone the repo
+1. **Clone the repository**
    ```bash
    git clone https://github.com/LokeshAdivishnu/DailyStatusReport.git
    cd DailyStatusReport
-2. Install Dependencies
-3. Run the App --> streamlit run dsr.py
-4. Visit: http://localhost:8501
+   ```
 
----
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## ☁️ Hosting on Streamlit Cloud
+3. **Run the application**
+   ```bash
+   streamlit run dsr.py
+   ```
+
+4. Open your browser and visit: [http://localhost:8501](http://localhost:8501)
+
+## Hosting on Streamlit Cloud
+
 You can deploy this app for free using Streamlit Community Cloud:
-- Push this repo to GitHub (done ✅)
-- Go to 👉 https://streamlit.io/cloud
-- Click "Deploy an app" and link your GitHub repo.
-- Set the main file as app.py
-- Click "Deploy" and your app will go live 🚀
+
+1. Push this repository to GitHub
+2. Go to [Streamlit Cloud](https://streamlit.io/cloud)
+3. Click "Deploy an app" and link your GitHub repository
+4. Set the main file as `app.py`
+5. Click "Deploy" to make your app live
+
+## License
+
+This project is open-source and free for personal and educational use.
 
 ---
 
-## 👤 Author
-Made with ❤️ by Lokesh Adivishnu
-
+**Created by Lokesh Adivishnu**
